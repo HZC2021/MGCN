@@ -1,8 +1,8 @@
 # Rainfall Forecasting Using Multi-Graph Convolutional Networks
 ### Requirements
-Python 3.8
-Tensorflow 2.6.0
-Spektral 1.0.8
+- Python 3.8
+- Tensorflow 2.6.0
+- Spektral 1.0.8
 
 ### 1. To get the embedded datasets we used
 https://drive.google.com/drive/folders/1RlGxlvrGiIxEehR2Fu_-QSBoNxtbkSr8?usp=sharing
@@ -18,6 +18,7 @@ Run gendata.py under ./MGCN/neg or ./MGCN/pos
 
 ### 4. Test the M-GCN under ./MGCN/neg or ./MGCN/pos
 Run MGCN.py for training models
+
 Run MGCNtest.py for testing
 
 ### Sidenote: Using the GPU
